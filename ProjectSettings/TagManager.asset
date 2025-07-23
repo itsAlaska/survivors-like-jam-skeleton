@@ -3,17 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Projectile
+  - Pickup
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Enemies
+  - Environment
+  - Projectiles
   - 
   - 
   - 
@@ -40,4 +44,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1247637147
+    locked: 0
+  - name: Midground
+    uniqueID: 1319441377
+    locked: 0
+  - name: Characters
+    uniqueID: 245338923
+    locked: 0
+  - name: Projectiles
+    uniqueID: 1825531025
+    locked: 0
+  - name: UI
+    uniqueID: 2738578705
     locked: 0
